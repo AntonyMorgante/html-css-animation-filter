@@ -1,0 +1,208 @@
+.ex-1-square:hover{
+    animation: exercise-1 5s;
+}
+
+@keyframes exercise-1{
+    0% {background-color:#f5f5f5;}
+    20% {background-color: red;
+        opacity: 0.2;}
+    40% {background-color: red;
+        opacity:0.4;}
+    60% {background-color: red;
+        opacity:0.6;}
+    80% {background-color: red;
+        opacity:0.8;}
+    100% {background-color: red;
+        opacity:1;} 
+}
+
+.ex-2-square:active{
+    animation: exercise-2 5s;
+}
+
+@keyframes exercise-2{
+    0% {width:100px;}
+    20% {width:20%;}
+    40% {width:40%;}
+    60% {width:60%;}
+    80% {width:80%;}
+    100% {width:100%;}
+}
+
+.ex-3-square:hover{
+    animation: exercise-3 5s;
+}
+
+@keyframes exercise-3{
+    0% {border-radius:0%;}
+    20% {border-radius:10%;}
+    40% {border-radius:20%;}
+    60% {border-radius:30%;}
+    80% {border-radius:40%;}
+    100% {border-radius:50%;}
+}
+
+.ex-4-square:hover{
+    animation: exercise-4 5s;
+}
+
+@keyframes exercise-4{
+    0% {background-color:red;}
+    20% {background-color: red;
+        opacity: 0.9;}
+    40% {background-color: red;
+        opacity:0.6;}
+    60% {background-color: red;
+        opacity:0.3;}
+    80% {background-color: #f5f5f5;}
+    100% {display:none;}
+}
+
+.ex-5-square:hover{
+    animation: exercise-5-big 4s;
+}
+
+.ex-5-square:active{
+    animation: exercise-5-small 4s;
+}
+
+@keyframes exercise-5-big{
+    0% {width:60px;
+        height:60px;}
+    25% {width:70px;
+        height:70px;}
+    50% {width:80px;
+        height:80px;}
+    75% {width:90px;
+        height:90px;}
+    100% {width:100px;
+        height:100px;}
+}
+
+@keyframes exercise-5-small{
+    0% {width:60px;
+        height:60px;}
+    25% {width:50px;
+        height:50px;}
+    50% {width:40px;
+        height:40px;}
+    75% {width:30px;
+        height:30px;}
+    100% {width:20px;
+        height:20px;}
+}
+
+.ex-6-img:hover{
+    filter:grayscale()
+}
+
+.ex-7-img:hover{
+    animation: exercise-7 4s;
+}
+
+@keyframes exercise-7{
+    25% {filter:grayscale(25%) brightness(1);}
+    50% {filter:grayscale(50) brightness(0.8);}
+    75% {filter:grayscale(75%) brightness(0.6);}
+    100% {filter:grayscale(100%) brightness(0.4);}
+}
+
+.ex-8-img:hover{
+    animation: exercise-8 4s;
+}
+
+@keyframes exercise-8{
+    25% {filter:grayscale(25%) brightness(1);
+        border-radius:10px;}
+    50% {filter:grayscale(50) brightness(0.8);
+        border-radius:20px;}
+    75% {filter:grayscale(75%) brightness(0.6);
+        border-radius:30px;}
+    100% {filter:grayscale(100%) brightness(0.4);
+        border-radius:40px;}
+}
+
+.ex-9-img:hover{
+    animation: exercise-9 4s;
+}
+
+@keyframes exercise-9{
+    25% {filter:grayscale(25%) brightness(1);
+        border-radius:10px;
+        width:420px;}
+    50% {filter:grayscale(50) brightness(0.8);
+        border-radius:20px;
+        width:440px;}
+    75% {filter:grayscale(75%) brightness(0.6);
+        border-radius:30px;
+        width:460px;}
+    100% {filter:grayscale(100%) brightness(0.4);
+        border-radius:40px;
+        width:480px;}
+}
+
+.ex-10-icon{
+    animation: exercise-10 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exercise-10{
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.ex-11-icon:hover{
+    animation: exercise-11 2s;
+}
+
+@keyframes exercise-11{
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    80%{transform: rotate(270deg);}
+    85%{transform: rotate(180deg);}
+    90%{transform: rotate(90deg);}
+}
+
+.ex-12-top-white{
+    animation: exercise-12-top 3s;
+    animation-iteration-count: infinite;
+}
+
+.ex-12-bottom-white{
+    animation: exercise-12-bottom 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exercise-12-top{
+    25%{left:20%;}
+    50%{left:30%;}
+    75%{left:20%;}
+    100%{left:10%;}
+}
+
+@keyframes exercise-12-bottom{
+    25%{right:30%;}
+    50%{right:40%;}
+    75%{right:30%;}
+    100%{right:20%;}
+}
+
+.ex-13-top-white{
+    animation: exercise-13-top 10s;
+    animation-iteration-count: infinite;
+}
+
+.ex-13-bottom-white{
+    animation: exercise-13-bottom 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exercise-13-top{
+}
+
+@keyframes exercise-13-bottom{
+
+}
